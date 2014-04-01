@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>WHF spielt Pokémon</title>
+<link type="text/css" rel="stylesheet" href="cache/themes/theme6/css3.css">
+<link type="text/css" rel="stylesheet" href="cache/themes/theme6/global.css">
+<style type="text/css">
+#recenttopics {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#recenttopics tbody {
+    line-height: 1;
+}
+
+#therump {
+    text-align: center;
+}
+</style>
+<script type="text/javascript" src="aprilfools.js"></script>
+</head>
+<body>
+<div id="container"><a name="top" id="top"></a>
+<!--
+    JA NATÜRLICH IST DAS DESIGN IM EIMER.
+    DAFÜR VERSCHWENDE ICH AUCH NICHT JEDES MAL >180K AN DER PROTOTYPE-BIBLIOTHEK.
+-->
+<div id="header">
+<div id="logo">
+<div class="wrapper">
+<a href="index.php"><img src="images/logo/dark.png" alt="Winhistory-Forum" title="Winhistory-Forum"></a></div>
+</div>
+<div id="panel">
+<div class="upper">
+<div class="wrapper">
+<ul class="menu top_links">
+<li><a href="search.php">Suche</a></li>
+<li><a href="memberlist.php">Mitglieder</a></li>
+<li><a href="calendar.php">Kalender</a></li>
+</ul>
+<span class="welcome"><strong>Willkommen zurück, <a href="member.php?action=profile&amp;uid=24" id="fakename">Gast</a></strong> - Letzter Besuch: Gestern, <span id="faketime">23:00</span></span></div>
+</div>
+<div class="lower">
+<div class="wrapper">
+<ul class="menu panel_links">
+<li><a href="usercp.php">Benutzer-CP</a></li>
+</ul>
+<ul class="menu user_links">
+<li><a href="search.php?action=unread">Ungelesene Beiträge ansehen</a></li>
+<li><a href="private.php">Private Nachrichten</a> (0 ungelesen, <span id="fakecount">1</span> insgesamt)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<div class="wrapper">
+<table id="recenttopics" class="tborder" border="0" cellpadding="5" cellspacing="0">
+<thead>
+<tr>
+<td class="thead">
+<div><strong>Letztes Thema</strong></div>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="trow1 recenttopic" id="therump">
+<object bgcolor="#000000" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=dosamp" width="620" height="378" id="live_embed_player_flash" type="application/x-shockwave-flash"> 
+    <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf"> 
+    <param name="allowScriptAccess" value="always"> 
+    <param name="allowNetworking" value="all"> 
+    <param name="allowFullScreen" value="true"> 
+    <param name="flashvars" value="hostname=www.twitch.tv&channel=dosamp&auto_play=true&start_volume=30">
+    <p>Adobe Flash wird von deinem Browser nicht unterstützt. <a href="http://www.twitch.tv/dosamp" target="_blank">Rufe den Stream manuell auf</a>.</p>
+</object>
+</td>
+</tr>
+</tbody>
+</table>
+<br></div>
+</div>
+<div id="footer">
+<div class="upper">
+<div class="wrapper">
+<ul class="menu bottom_links">
+<li><a href="impressum.php">Kontakt</a></li>
+<li><a href="http://www.winhistory.de/">winhistory.de</a></li>
+<li><a href="#top">Nach oben</a></li>
+<li><a href="misc.php?action=syndication">RSS-Synchronisation</a></li>
+<li><a href="misc.php?action=help" class="help">Hilfe</a></li>
+</ul>
+</div>
+</div>
+<div class="lower">
+<div class="wrapper"><span id="current_time"><strong>Es
+ist:</strong> 01.04.2014, <span id="realtime">00:00</span></span>
+<span id="copyright">Deutsche Übersetzung: <a href="http://www.mybboard.de" target="_blank">MyBBoard.de</a>, Powered by <a href="http://www.mybboard.net" target="_blank">MyBB</a>,
+&copy; 2002-2014 <a href="http://www.mybboard.net" target="_blank">MyBB Group</a>.</span> <span id="theme">Theme created by <a href="http://bellomandesign.com/" target="_blank">Justin
+S.</a></span></div>
+</div>
+</div>
+</div>
+</body>
+</html>
