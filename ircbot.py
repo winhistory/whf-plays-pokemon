@@ -74,6 +74,8 @@ class PokemonBot(irc.bot.SingleServerIRCBot):
             IRC_NICKNAME, IRC_NICKNAME
         )
         
+        self.connection.buffer_class.errors = 'replace'
+
         self.key_emitter = key_emitter
         
         self.mode = "anarchy"
