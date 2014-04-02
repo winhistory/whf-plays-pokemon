@@ -13,7 +13,8 @@ All the scripts used in April's Fool 2014.
 
  - Python 3.1 or higher
  - Visual Boy Advance (SDL Version)
- - ffmpeg with x11grab for streaming
+ - ffmpeg with x11grab, libx264 and libmp3lame for streaming
+ - PulseAudio as a monitor for audio recording (works with internal dummy output, no sound hardware needed)
  - Either one of the following for sending key commands to VBA:
   - [python-uinput](http://tjjr.fi/sw/python-uinput/)
     Using Linux' uinput module
